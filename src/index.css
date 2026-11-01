@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+body{
+  background-image: url("./assets/Portfolio2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  font-family: 'Racing Sans One',sans-serif;
+  /* text-transform: uppercase; */
+  color: white;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  
+}
