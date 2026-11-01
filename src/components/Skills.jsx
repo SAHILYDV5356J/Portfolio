@@ -8,14 +8,6 @@ const Skills = () => {
 
        <div className="flex items-center w-full mt-5">
 
-            <div className="flex flex-col gap-2  w-[20%] px-5 py-5">
-
-                <h3 className="text-7xl text-green-600 opacity-50">02</h3>
-                <h1 className="text-8xl">MY <br /> <span className="text-green-600">SKILLS</span></h1>
-
-                <p className="text-2xl font-sans">Technologies and tools I work with to build scalable and efficient applications.</p>
-
-            </div>
 
             <div className=" w-[80%] p-5 mx-10 grid grid-cols-5 gap-2 gap-x-2">
 
@@ -31,6 +23,15 @@ const Skills = () => {
                 <SkillCards skillname={"HTML"} image={"/src/assets/skillphoto/html.png"}/>
                 <SkillCards skillname={"CSS"} image={"/src/assets/skillphoto/css.png"}/>
                 <SkillCards skillname={"Postman"} image={"/src/assets/skillphoto/postman.png"}/>
+
+            </div>
+
+            <div className="flex flex-col gap-2  w-[20%] px-5 py-5">
+
+                <h3 className="text-7xl text-green-600 opacity-50">02</h3>
+                <h1 className="text-8xl">MY <br /> <span className="text-green-600">SKILLS</span></h1>
+
+                <p className="text-2xl font-sans">Technologies and tools I work with to build scalable and efficient applications.</p>
 
             </div>
 

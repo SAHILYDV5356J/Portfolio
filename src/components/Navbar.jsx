@@ -2,7 +2,7 @@ import { IoCodeSlashOutline } from "react-icons/io5";
 const Navbar = () => {
     
   return (
-    <div className=" z-20 navbar h-[80px] w-full rounded-b-lg  bg-black/55 shadow-gray-600 shadow shadow-white/10 fixed top-0">
+    <div className=" z-20 navbar h-[80px] w-full rounded-b-lg  bg-black/75 shadow-gray-600 shadow shadow-white/10 fixed top-0">
 
         <nav className="w-full h-full flex items-center ">
             <div id="logo" className="text-white flex items-center gap-x-2 mr-10 w-[25%] pl-[70px]">

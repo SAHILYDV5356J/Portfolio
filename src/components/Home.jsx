@@ -8,7 +8,7 @@ import { IoMdCall } from "react-icons/io";
 import "../css/home.css"
 const Home = () => {
   return (
-    <div id="home" className= "home flex flex-row items-center justify-center mt-[80px] px-20">
+    <div id="home" className= "home flex flex-row items-center justify-center mt-[150px] px-20">
 
         <div className=" profile flex flex-col gap-2 w-[50%] py-10">
             <p className="text-3xl">HELLO. I'M</p>
