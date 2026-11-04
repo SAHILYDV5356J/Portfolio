@@ -22,7 +22,15 @@ const Projects = () => {
 
             </div>
 
-            
+            <div className="projectgrid w-[70%] mx-10 p-10 grid  grid-cols-2 gap-5 mt-10">
+
+                <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
+                <ProjectCard/>
+                
+
+            </div>
        </div>
       
     </div>
