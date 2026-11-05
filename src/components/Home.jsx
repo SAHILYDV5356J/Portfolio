@@ -5,20 +5,28 @@ import { FaLinkedinIn } from "react-icons/fa6";
 import { TbBrandLeetcode } from "react-icons/tb";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
-import "../css/home.css"
+import "../css/home.css";
+import Settingroller from "./settingroller";
 const Home = () => {
   return (
-    <div id="home" className= "home flex flex-row items-center justify-center mt-[150px] px-10">
+    
+    
+    <div id="home" className= "home flex flex-col justify-center mt-[70px] w-full px-10 relative">
 
-        <div className=" profile flex flex-col gap-2 w-[50%] py-7">
+       
+        <Settingroller/>
+           
+        <div className="flex items-center justify-center w-full ">
+
+            <div className=" profile flex flex-col gap-2 w-[50%] py-7">
             <p className="text-2xl">HELLO. I'M</p>
-            <h1 className="text-7xl ml-1">Sahil <span className="text-green-600">Yadav</span></h1>
+            <h1 className="text-8xl ml-1">Sahil <span className="text-green-600">Yadav</span></h1>
             <h3 className="text-5xl ml-1">Java Backend <span className="text-green-600">Developer</span></h3>
             <p className="text-xl font-sans font-semibold ml-1">Building scalable web applications with Java , SpringBoot and moderen technologies.</p>
 
             <div className="flex flex-row gap-10 items-center mt-5 ml-1">
-                <button className="py-4 px-10 bg-green-600 rounded-4xl text-black font-sans font-semibold text-md flex items-center gap-2">View My Project <FaArrowRightLong/></button>
-                <button className="py-4 px-10 rounded-4xl text-white font-sans font-semibold text-md border border-green-600 flex items-center gap-1">Download Resume <VscDownload/></button>
+                <button className="py-4 px-10 bg-green-600 rounded-4xl text-black font-sans font-semibold text-md flex items-center gap-2 hover:shadow-md hover:scale-101 transition-all duration-75 shadow-white/30">View My Project <FaArrowRightLong/></button>
+                <button className="py-4 px-10 rounded-4xl text-white font-sans font-semibold text-md border border-green-600 flex items-center gap-1 hover:shadow-md hover:scale-101 transition-all duration-75 shadow-green-600/30">Download Resume <VscDownload/></button>
             </div>
 
             <div className="ml-1 mt-3 flex gap-3 items-center">
@@ -51,9 +59,13 @@ const Home = () => {
 
         {/* image part */}
 
-        <div className="heroimg w-[50%] h-[500px] relative top-3"></div>
+        <div className="heroimg w-[50%] h-[28rem] relative top-3 hover:scale-105 transition-all duration-75"></div>
+
+        </div>
+
 
     </div>
+    
   );
 }
 

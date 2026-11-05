@@ -28,10 +28,10 @@ const Skills = () => {
 
             <div className="flex flex-col gap-2  w-[20%] px-5 py-5">
 
-                <h3 className="text-7xl text-green-600 opacity-50">02</h3>
-                <h1 className="text-8xl">MY <br /> <span className="text-green-600">SKILLS</span></h1>
+                <h3 className="text-6xl text-green-600 opacity-50">02</h3>
+                <h1 className="text-7xl">MY <br /> <span className="text-green-600">SKILLS</span></h1>
 
-                <p className="text-2xl font-sans">Technologies and tools I work with to build scalable and efficient applications.</p>
+                <p className="text-xl font-sans">Technologies and tools I work with to build scalable and efficient applications.</p>
 
             </div>
 
