@@ -1,8 +1,8 @@
 import Stepper from "./Stepper";
-
+import "../css/experience.css"
 const Experience = () => {
   return (
-    <div id="experience" className="flex flex-col items-center mt-[80px] pt-5 pb-15" style={{scrollMarginTop:80}}>
+    <div id="experience" className="flex flex-col items-center mt-[80px] pt-5 pb-15" style={{scrollMarginTop:70}}>
 
         <h1 id="skillheading" className="text-5xl w-[300px] text-center">EXPERIENCE</h1>
 

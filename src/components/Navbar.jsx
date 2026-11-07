@@ -10,7 +10,7 @@ const Navbar = () => {
                <p className="text-2xl font-semibold">Sahil <span className="text-green-700">Yadav</span></p>
             </div>
 
-            <div id="sections" className="flex items-center gap-6 w-[50%] justify-center">
+            <div id="sections" className="hidden lg:flex items-center gap-6 w-[50%] justify-center">
 
             <a href="#home" className="text-white text-md bg-white/10 px-2 py-1 rounded-lg">Home</a>
 

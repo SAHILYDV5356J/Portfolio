@@ -9,7 +9,7 @@ const Skills = () => {
        <div className="flex items-center w-full mt-5">
 
 
-            <div className=" w-[80%] p-5 mx-10 grid grid-cols-5 gap-2 gap-x-2">
+            <div className=" w-[80%] p-5 mx-10  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 gap-x-2">
 
                 <SkillCards skillname={"Java"} image={"/src/assets/skillphoto/java.png"}/>
                 <SkillCards skillname={"SpringBoot"} image={"/src/assets/skillphoto/springboot.png"}/>

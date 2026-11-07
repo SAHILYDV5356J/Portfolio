@@ -7,6 +7,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
 import "../css/home.css";
 import Settingroller from "./settingroller";
+import { IoCodeSlashOutline } from "react-icons/io5";
 const Home = () => {
   return (
     
@@ -16,7 +17,7 @@ const Home = () => {
        
         <Settingroller/>
            
-        <div className="flex items-center justify-center w-full ">
+        <div className="flex sm:flex-col lg:flex-row items-center justify-center w-full ">
 
             <div className=" profile flex flex-col gap-2 w-[50%] py-7">
             <p className="text-2xl">HELLO. I'M</p>
@@ -55,6 +56,10 @@ const Home = () => {
             </div>
 
             
+        </div>
+
+        <div className="codeicon w-[22%] h-[50%]  absolute z-2 left-150 ">
+            <IoCodeSlashOutline className="text-[15rem]"/>
         </div>
 
         {/* image part */}
