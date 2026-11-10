@@ -22,7 +22,7 @@ const Skills = () => {
                 <SkillCards skillname={"Javascript"} image={"/src/assets/skillphoto/js.jpeg"}/>
                 <SkillCards skillname={"HTML"} image={"/src/assets/skillphoto/html.png"}/>
                 <SkillCards skillname={"CSS"} image={"/src/assets/skillphoto/css.png"}/>
-                <SkillCards skillname={"Postman"} image={"/src/assets/skillphoto/postman.png"}/>
+                {/* <SkillCards skillname={"Postman"} image={"/src/assets/skillphoto/postman.png"}/> */}
 
             </div>
 
