@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
     <Navbar/>
-    <div className="w-full px-10">
+    <div className="w-full px-1 md:px-10 ">
       <Home/>
       <Skills/>
       <Projects/>
