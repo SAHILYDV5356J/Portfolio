@@ -11,18 +11,18 @@ const Skills = () => {
 
             <div className=" w-full md:w-[70%] p-5  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
 
-                <SkillCards skillname={"Java"} image={"/src/assets/skillphoto/java.png"}/>
-                <SkillCards skillname={"SpringBoot"} image={"/src/assets/skillphoto/springboot.png"}/>
-                <SkillCards skillname={"React"} image={"/src/assets/skillphoto/react.png"}/>
-                <SkillCards skillname={"PostgreSql"} image={"/src/assets/skillphoto/postgresql.png"}/>
-                <SkillCards skillname={"Redis"} image={"/src/assets/skillphoto/redis.png"}/>
-                <SkillCards skillname={"Docker"} image={"/src/assets/skillphoto/docker.png"}/>
-                <SkillCards skillname={"Git"} image={"/src/assets/skillphoto/git.png"}/>
-                <SkillCards skillname={"Github"} image={"/src/assets/skillphoto/github.png"}/>
-                <SkillCards skillname={"Javascript"} image={"/src/assets/skillphoto/js.jpeg"}/>
-                <SkillCards skillname={"HTML"} image={"/src/assets/skillphoto/html.png"}/>
-                <SkillCards skillname={"CSS"} image={"/src/assets/skillphoto/css.png"}/>
-                <SkillCards skillname={"Postman"} image={"/src/assets/skillphoto/postman.png"}/>
+                <SkillCards skillname={"Java"} image={"/assets/skillphoto/java.png"}/>
+                <SkillCards skillname={"SpringBoot"} image={"/assets/skillphoto/springboot.png"}/>
+                <SkillCards skillname={"React"} image={"/assets/skillphoto/react.png"}/>
+                <SkillCards skillname={"PostgreSql"} image={"/assets/skillphoto/postgresql.png"}/>
+                <SkillCards skillname={"Redis"} image={"/assets/skillphoto/redis.png"}/>
+                <SkillCards skillname={"Docker"} image={"/assets/skillphoto/docker.png"}/>
+                <SkillCards skillname={"Git"} image={"/assets/skillphoto/git.png"}/>
+                <SkillCards skillname={"Github"} image={"/assets/skillphoto/github.png"}/>
+                <SkillCards skillname={"Javascript"} image={"/assets/skillphoto/js.jpeg"}/>
+                <SkillCards skillname={"HTML"} image={"/assets/skillphoto/html.png"}/>
+                <SkillCards skillname={"CSS"} image={"/assets/skillphoto/css.png"}/>
+                <SkillCards skillname={"Postman"} image={"/assets/skillphoto/postman.png"}/>
 
             </div>
 

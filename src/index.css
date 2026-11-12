@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body{
-  background-image: url("./assets/Portfolio2.jpg");
+  background-image: url("/assets/Portfolio2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.644);
