@@ -11,18 +11,18 @@ const Skills = () => {
 
             <div className=" w-full md:w-[70%] p-5  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
 
-                <SkillCards skillname={"Java"} image={"/assets/skillphoto/java.png"}/>
-                <SkillCards skillname={"SpringBoot"} image={"/assets/skillphoto/springboot.png"}/>
-                <SkillCards skillname={"React"} image={"/assets/skillphoto/react.png"}/>
-                <SkillCards skillname={"PostgreSql"} image={"/assets/skillphoto/postgresql.png"}/>
-                <SkillCards skillname={"Redis"} image={"/assets/skillphoto/redis.png"}/>
-                <SkillCards skillname={"Docker"} image={"/assets/skillphoto/docker.png"}/>
-                <SkillCards skillname={"Git"} image={"/assets/skillphoto/git.png"}/>
-                <SkillCards skillname={"Github"} image={"/assets/skillphoto/github.png"}/>
-                <SkillCards skillname={"Javascript"} image={"/assets/skillphoto/js.jpeg"}/>
-                <SkillCards skillname={"HTML"} image={"/assets/skillphoto/html.png"}/>
-                <SkillCards skillname={"CSS"} image={"/assets/skillphoto/css.png"}/>
-                <SkillCards skillname={"Postman"} image={"/assets/skillphoto/postman.png"}/>
+                <SkillCards skillname={"Java"} image={"/assets/skillphoto/java.webp"}/>
+                <SkillCards skillname={"SpringBoot"} image={"/assets/skillphoto/springboot.webp"}/>
+                <SkillCards skillname={"React"} image={"/assets/skillphoto/react.webp"}/>
+                <SkillCards skillname={"PostgreSql"} image={"/assets/skillphoto/postgresql.webp"}/>
+                <SkillCards skillname={"Redis"} image={"/assets/skillphoto/redis.webp"}/>
+                <SkillCards skillname={"Docker"} image={"/assets/skillphoto/docker.webp"}/>
+                <SkillCards skillname={"Git"} image={"/assets/skillphoto/git.webp"}/>
+                <SkillCards skillname={"Github"} image={"/assets/skillphoto/github.webp"}/>
+                <SkillCards skillname={"Javascript"} image={"/assets/skillphoto/js.webp"}/>
+                <SkillCards skillname={"HTML"} image={"/assets/skillphoto/html.webp"}/>
+                <SkillCards skillname={"CSS"} image={"/assets/skillphoto/css.webp"}/>
+                <SkillCards skillname={"Postman"} image={"/assets/skillphoto/postman.webp"}/>
 
             </div>
 
