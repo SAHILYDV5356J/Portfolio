@@ -6,7 +6,7 @@ import { TbBrandLeetcode } from "react-icons/tb";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
 import "../css/home.css";
-import Settingroller from "./settingroller";
+import Settingroller from "./Settingroller";
 import { IoCodeSlashOutline } from "react-icons/io5";
 const Home = () => {
   return (
