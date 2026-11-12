@@ -7,12 +7,12 @@ const Contact = () => {
 
         <h1 id="skillheading" className="text-5xl w-[200px] text-center">Contact</h1>
 
-        <div className="flex mt-10 w-[100%] ">
+        <div className="flex flex-col md:flex-row mt-10 w-full ">
 
-            <div className="flex flex-col gap-1 w-[60%] px-5 py-5 ">
+            <div className="flex flex-col gap-1 w-full md:w-[50%] lg:w-[60%] px-5 py-5 ">
             
-                <h3 className="text-6xl text-green-600 opacity-50">06</h3>
-                <h1 className="text-7xl">GET IN<span className="text-green-600"> TOUCH</span></h1>
+                <h3 className="text-4xl lg:text-6xl text-green-600 opacity-50">06</h3>
+                <h1 className="text-5xl lg:text-7xl">GET IN<span className="text-green-600"> TOUCH</span></h1>
 
                 <p className="text-xl font-sans">Let's build something great together.</p>
                 <p className="text-xl font-sans">I'm always open to discussing new opportunities, projects and everything regarding tech.</p>
@@ -20,17 +20,17 @@ const Contact = () => {
                 <div className="flex flex-col gap-3 mt-5 font-sans text-md">
 
                     <div className="flex items-center gap-3 text-xl">
-                        <CiMail size={35} className="text-green-600"/>
+                        <CiMail  className="text-green-600"/>
                         sy05092005@gmail.com
                     </div>
 
                     <div className="flex items-center gap-3 text-xl">
-                        <FaGithub size={35} className="text-green-600"/>
+                        <FaGithub  className="text-green-600"/>
                         https://github.com/SAHILYDV5356J
                     </div>
 
                     <div className="flex items-center gap-3 text-xl">
-                        <FaLinkedinIn size={35} className="text-green-600"/>
+                        <FaLinkedinIn className="text-green-600"/>
                         linkedin.com/in/sahilyadav001
                     </div>
 
@@ -39,7 +39,7 @@ const Contact = () => {
 
             </div>
 
-            <div className="w-[40%] ">
+            <div className="w-full md:w-[50%] lg:w-[40%]">
                 <form action="" className="flex flex-col gap-3  p-5 bg-black/50 rounded-2xl shadow-md shadow-white/30">
 
                     

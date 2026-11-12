@@ -3,7 +3,7 @@ import { RiGraduationCapLine } from "react-icons/ri";
 import { MdOutlineWorkOutline } from "react-icons/md";
 const Stepper = () => {
   return (
-    <div className="flex flex-col gap-10 w-full bg-black/30 p-5 py-10 rounded-3xl shadow-xl shadow-black/30 hover:scale-102 transition-all duration-50">
+    <div className="flex flex-col gap-10 w-full bg-black/30 p-1 lg:p-5 py-10 rounded-3xl shadow-xl shadow-black/30 hover:scale-102 transition-all duration-50">
 
     
 
@@ -14,12 +14,12 @@ const Stepper = () => {
                 </div>
 
                 <div className="flex flex-col">
-                    <h1 className="text-lg">B.Tech CSE</h1>
-                    <p>Jaipur Engineering College , Kukas</p>
+                    <h1 className="text-md lg:text-lg">B.Tech CSE</h1>
+                    <p >Jaipur Engineering College , Kukas</p>
                     <p>2025-2029 (Expected)</p>
                 </div>
 
-                <div className="text-sm text-white bg-green-600 font-sans px-2 py-1 rounded-2xl absolute right-10 w-20 flex justify-center items-center">
+                <div className="hidden text-sm text-white bg-green-600 font-sans px-2 py-1 rounded-2xl absolute right-10 w-20 lg:flex justify-center items-center">
                     Currently
                 </div>
             
@@ -38,7 +38,7 @@ const Stepper = () => {
                     <p>2025-Present</p>
                 </div>
 
-               <div className="text-sm text-white bg-green-600 font-sans px-2 py-1 rounded-2xl absolute right-10 w-20 flex justify-center items-center">
+               <div className="hidden text-sm text-white bg-green-600 font-sans px-2 py-1 rounded-2xl absolute right-10 w-20 lg:flex justify-center items-center">
                     Ongoing
                 </div>
             
@@ -55,7 +55,7 @@ const Stepper = () => {
                     <p>Looking for backend and full stack internships</p>
                 </div>
 
-                <div className="text-sm text-white bg-green-600 font-sans px-2 py-1 rounded-2xl absolute right-10 w-20 flex justify-center items-center">
+                <div className="hidden text-sm text-white bg-green-600 font-sans px-2 py-1 rounded-2xl absolute right-10 w-20 lg:flex justify-center items-center">
                     Now
                 </div>
             

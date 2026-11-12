@@ -4,12 +4,12 @@ const Skills = () => {
   return (
     <div id="skills" className="skills flex flex-col items-center mt-[80px] py-5">
        
-       <h1 id="skillheading" className="text-5xl w-[180px] text-center">SKILLS</h1>
+       <h1 id="skillheading" className=" text-5xl w-[180px] text-center">SKILLS</h1>
 
-       <div className="flex items-center w-full mt-5">
+       <div className="flex flex-col-reverse md:flex-row items-center w-full mt-5">
 
 
-            <div className=" w-[80%] p-5 mx-10  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 gap-x-2">
+            <div className=" w-full md:w-[70%] p-5  grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
 
                 <SkillCards skillname={"Java"} image={"/src/assets/skillphoto/java.png"}/>
                 <SkillCards skillname={"SpringBoot"} image={"/src/assets/skillphoto/springboot.png"}/>
@@ -26,10 +26,10 @@ const Skills = () => {
 
             </div>
 
-            <div className="flex flex-col gap-2  w-[20%] px-5 py-5">
+            <div className="flex flex-col gap-2 w-full  md:w-[30%] px-5 py-5">
 
-                <h3 className="text-6xl text-green-600 opacity-50">02</h3>
-                <h1 className="text-7xl">MY <br /> <span className="text-green-600">SKILLS</span></h1>
+                <h3 className="text-4xl md:text-6xl text-green-600 opacity-50">02</h3>
+                <h1 className="text-6xl lg:text-7xl md:text-6xl">MY <br /> <span className="text-green-600">SKILLS</span></h1>
 
                 <p className="text-xl font-sans">Technologies and tools I work with to build scalable and efficient applications.</p>
 
