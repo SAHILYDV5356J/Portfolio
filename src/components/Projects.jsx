@@ -8,9 +8,9 @@ import "../css/project.css";
 const Projects = () => {
   return (
 
-    <div id='projects' className='projects flex flex-col items-center mt-[80px] pt-5 pb-15'>
+    <div id='projects' className='projects flex flex-col items-center mt-[10px] md:mt-[80px] pt-5 pb-15'>
       
-      <h1 id="skillheading" className="text-5xl w-[250px] text-center">PROJECTS</h1>
+      <h1 id="skillheading" className="text-3xl md:text-5xl w-[150px] md:w-[250px] text-center">PROJECTS</h1>
 
       <div className="flex flex-col md:flex-row items-center w-full mt-5 ">
 
@@ -19,7 +19,7 @@ const Projects = () => {
                 <h3 className="text-4xl md:text-5xl lg:text-6xl text-green-600 opacity-50">03</h3>
                 <h1 className="text-5xl  lg:text-7xl">MY <br /> <span className="text-green-600">PROJECTS</span></h1>
 
-                <p className="text-xl font-sans">Here are some of my recent projects that showcase my skills and passion for building real-world applications.</p>
+                <p className="text-sm md:text-xl font-sans">Here are some of my recent projects that showcase my skills and passion for building real-world applications.</p>
 
                <button className="my-10 py-2 md:py-4 px-10 border border-2 border-green-600 rounded-4xl text-white font-sans font-semibold text-md flex items-center gap-2 justify-center ">View All Projects<FaArrowRightLong/></button>
 

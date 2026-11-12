@@ -3,9 +3,9 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
   return (
-    <div id="contact" className="flex flex-col items-center mt-[80px] pt-5 pb-15" style={{scrollMarginTop:50}}>
+    <div id="contact" className="flex flex-col items-center mt-[10px] md:mt-[80px] pt-5 pb-15" style={{scrollMarginTop:50}}>
 
-        <h1 id="skillheading" className="text-5xl w-[200px] text-center">Contact</h1>
+        <h1 id="skillheading" className="text-3xl md:text-5xl w-[130px] md:w-[200px] text-center">Contact</h1>
 
         <div className="flex flex-col md:flex-row mt-10 w-full ">
 
@@ -19,17 +19,17 @@ const Contact = () => {
 
                 <div className="flex flex-col gap-3 mt-5 font-sans text-md">
 
-                    <div className="flex items-center gap-3 text-xl">
+                    <div className="flex items-center gap-3  text-sm md:text-xl">
                         <CiMail  className="text-green-600"/>
                         sy05092005@gmail.com
                     </div>
 
-                    <div className="flex items-center gap-3 text-xl">
+                    <div className="flex items-center gap-3 text-sm md:text-xl">
                         <FaGithub  className="text-green-600"/>
                         https://github.com/SAHILYDV5356J
                     </div>
 
-                    <div className="flex items-center gap-3 text-xl">
+                    <div className="flex items-center gap-3 text-sm md:text-xl">
                         <FaLinkedinIn className="text-green-600"/>
                         linkedin.com/in/sahilyadav001
                     </div>

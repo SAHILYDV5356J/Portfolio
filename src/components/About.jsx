@@ -5,9 +5,9 @@ import { SlCalender } from "react-icons/sl";
 import "../css/about.css"
 const About = () => {
   return (
-    <div id="about" className="flex flex-col items-center mt-[80px] pt-5 pb-15 " style={{scrollMarginTop:70}}>
+    <div id="about" className="flex flex-col items-center mt-[10px] md:mt-[80px] pt-5 pb-15 " style={{scrollMarginTop:70}}>
 
-        <h1 id="skillheading" className="text-5xl w-[220px] text-center">About Me</h1>
+        <h1 id="skillheading" className="text-3xl md:text-5xl w-[150px] md:w-[220px] text-center">About Me</h1>
 
         <div className="flex flex-col gap-2  w-full px-5 py-5">
 
@@ -15,7 +15,7 @@ const About = () => {
                 <h3 className="text-4xl lg:text-6xl text-green-600 opacity-50">05</h3>
                 <h1 className="text-5xl lg:text-7xl">ABOUT<span className="text-green-600"> ME</span></h1>
 
-                <p className="text-xl font-sans">I'm a B.Tech CSE student, passionate about backend development and problem solving. I love exploring new technologies and building impactful products that solve real-world problems</p>
+                <p className="text-sm  md:text-xl font-sans">I'm a B.Tech CSE student, passionate about backend development and problem solving. I love exploring new technologies and building impactful products that solve real-world problems</p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2  mt-10 font-sans">

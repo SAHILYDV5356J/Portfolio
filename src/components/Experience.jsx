@@ -2,9 +2,9 @@ import Stepper from "./Stepper";
 import "../css/experience.css"
 const Experience = () => {
   return (
-    <div id="experience" className="flex flex-col items-center mt-[80px] pt-5 pb-15" style={{scrollMarginTop:70}}>
+    <div id="experience" className="flex flex-col items-center mt-[10px] md:mt-[80px] pt-5 pb-15" style={{scrollMarginTop:70}}>
 
-        <h1 id="skillheading" className="text-5xl w-[300px] text-center">EXPERIENCE</h1>
+        <h1 id="skillheading" className="text-3xl md:text-5xl w-[170px] md:w-[300px] text-center">EXPERIENCE</h1>
 
         <div className="flex flex-col md:flex-row-reverse items-center w-full mt-10 ">
 
@@ -13,7 +13,7 @@ const Experience = () => {
                 <h3 className="text-4xl lg:text-6xl text-green-600 opacity-50">04</h3>
                 <h1 className="text-5xl lg:text-7xl">EXPERIENCE<br /> <span className="text-green-600">&EDUCATION</span></h1>
 
-                <p className="text-xl font-sans">My journey so far and what I'm currently focusing on.</p>
+                <p className="text-sm md:text-xl font-sans">My journey so far and what I'm currently focusing on.</p>
 
 
             </div>

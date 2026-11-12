@@ -2,9 +2,9 @@ import "../css/skills.css"
 import SkillCards from "./SkillCards";
 const Skills = () => {
   return (
-    <div id="skills" className="skills flex flex-col items-center mt-[80px] py-5">
+    <div id="skills" className="skills flex flex-col items-center  mt-[10px] md:mt-[80px] py-5">
        
-       <h1 id="skillheading" className=" text-5xl w-[180px] text-center">SKILLS</h1>
+       <h1 id="skillheading" className=" text-3xl md:text-5xl w-[100px] md:w-[180px] text-center">SKILLS</h1>
 
        <div className="flex flex-col-reverse md:flex-row items-center w-full mt-5">
 
@@ -31,7 +31,7 @@ const Skills = () => {
                 <h3 className="text-4xl md:text-6xl text-green-600 opacity-50">02</h3>
                 <h1 className="text-6xl lg:text-7xl md:text-6xl">MY <br /> <span className="text-green-600">SKILLS</span></h1>
 
-                <p className="text-xl font-sans">Technologies and tools I work with to build scalable and efficient applications.</p>
+                <p className="text-sm md:text-xl font-sans">Technologies and tools I work with to build scalable and efficient applications.</p>
 
             </div>
 
