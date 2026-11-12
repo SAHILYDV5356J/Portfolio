@@ -12,7 +12,7 @@ const Home = () => {
   return (
     
     
-    <div id="home" className= "home flex flex-col justify-center mt-[70px] w-full px-10 relative">
+    <div id="home" className= "home flex flex-col justify-center mt-[70px] w-full px-2 md:px-10 relative">
 
        
         <Settingroller/>
@@ -21,7 +21,7 @@ const Home = () => {
 
             <div className=" profile flex flex-col gap-2 md:w-[70%] py-7 w-full ">
                 <p className="text-xl md:text-2xl xl:text-3xl">HELLO. I'M</p>
-                <h1 className="text-3xl md:text-7xl xl:text-8xl ml-1 ">Sahil <span className="text-green-600">Yadav</span></h1>
+                <h1 className="text-6xl md:text-7xl xl:text-8xl ml-1 ">Sahil <span className="text-green-600">Yadav</span></h1>
                 <h3 className="text-4xl md:text-5xl xl:text-6xl sm:text-3xl ml-1">Java Backend <span className="text-green-600">Developer</span></h3>
                 <p className="text-sm md:text-xl font-sans font-semibold ml-1">Building scalable web applications with Java , SpringBoot and moderen technologies.</p>
 

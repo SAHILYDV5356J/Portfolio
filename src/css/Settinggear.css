@@ -1,6 +1,6 @@
 @keyframes myAnimation {
   from {left: 0;  transform: rotate(0deg);}
-  to {left: 95%;  transform: rotate(1100deg)}
+  to {left: 90%;  transform: rotate(1100deg)}
 }
 
 .setting{
